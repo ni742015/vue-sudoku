@@ -17,7 +17,7 @@ export class Grid {
 
 export class GridList {
     constructor(baseDataList = [1, 2, 3, 4, 5, 6, 7, 8, 9],
-                cacheLength = 8,
+                cacheLength = 6,
                 maxFailCount = 30,) {
         this.baseDataList = baseDataList; //基础数据（9位）
         this.cacheLength = cacheLength; //记录几条已填数据用于回退,数字越大成功率越高（最大有效数字8）
