@@ -2,7 +2,7 @@
     <div id="sudoku">
         <transition appear name="bounce">
             <div class="title">
-                <img src="./assets/title.png"/>
+                <!--<img src="./assets/title.png"/>-->
             </div>
         </transition>
         <div class="grid-box">
